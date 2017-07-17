@@ -1,0 +1,53 @@
+Assignment 4
+Student Name: Yonghui Rao
+Student ID: 16093645
+
+This is the assignment 4 of Computer Graphics.
+
+Implementation
+
+#1
+This is a simple 3D game, you will control a flying monster to cross
+enermies without hitting them.
+The model of the character is downloaded from https://www.turbosquid.com.
+The program loads the model via assimp.
+
+#2 
+Collision detection is implemented by checking distance of enemy and
+and host, if it is shorter than 1.1, collision happens.
+The host lose one life and change its color after each collision.
+The game is over after the host losing 3 lives.
+
+#3
+The enermy locations are generated randomly, they will move toward
+the host, thus it looks like the host is flying towards enermies.
+
+#4
+The Phong lighting is appiled
+
+#5
+The background has a texture of sky.jpg, no texture is applied for monster models,
+since there are several texture pictures and I am not sure which picture should be used.
+
+#6 
+Perspective projection is used in this program.
+
+#7 
+The game supports 5 different camera postions, up/down/left/right/back. By default,
+the camera is at the back of the host.
+
+
+How to play
+
+#1 Press arrow keys to control the host.
+#2 Press space key to pause/resume the game.
+#3 Press 'r' to reset the game if the host lose all lives.
+#4 Press 'w, s, a, d, b' to change the camera positions.
+#5 Press 'Esc' to exit the game
+
+
+
+
+
+
+
